@@ -219,11 +219,13 @@ main{
   padding:0.6rem;
   border-radius:6px;
   border:none;
-  background: rgba(255,255,255,0.06);
-  color:#fff;
+  background: rgb(255,255,255);
+  color:black;
   outline:none;
 }
-
+.submit-news input::placeholder, textarea::placeholder{
+  color: black;
+}
 /* Footer */
 footer{
   text-align:center;
